@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.pete.photocaptions">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.apps.pete.photocaptions.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="[ca-app-pub-3609953011019731~1851437217]" />
+        <activity android:name="com.apps.pete.photocaptions.FirstpageActivity">
+        </activity>
+        <activity android:name="com.apps.pete.photocaptions.FunnystatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.FamousquotesstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.InspirationstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.SpiritualstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.PunsstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.LovestatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.BreakupstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.BibleversesstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.HolidaymsgsstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.FamouslyricsstatusActivity" />
+        <activity android:name="com.apps.pete.photocaptions.Amazingstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Angrystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Attitudestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Birthdaystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Cleverstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Crushstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Creativestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Creepystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Childishstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Commonstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Coldstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Coolfactsstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Christmasstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Dirtystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Dumbstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Engagementstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Entertainingstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Eroticstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Excitedstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Emotionalstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Examstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Flirtstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Friendshipstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Factsstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Girlystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Goodluckstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Goodmorningstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Goodnightstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Hornystatus" />
+        <activity android:name="com.apps.pete.photocaptions.Hormonalstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Homealonestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Incorrectfactsstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Insultstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Imaginestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Kissingstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Knowledgestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Romanticstatus" />
+        <activity android:name="com.apps.pete.photocaptions.Rudestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Staywokestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Seductivestatus" />
+        <activity android:name="com.apps.pete.photocaptions.Sadstatus" />
+
+    </application>
+
+</manifest>
